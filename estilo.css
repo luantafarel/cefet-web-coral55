@@ -1,21 +1,98 @@
-/* Importa o arquivo CSS que importa a fonte Ravie */
-@import "fonts/ravie.css";
-.recipiente{
+@import "fonts/stylesheet.css";
+#recipiente{
+	width:798px;
+	border: 1px solid #aac0ae;
+	margin: 0 auto;
+	background-image: linear-gradient(#f6f1b2,#4599b2);
+}
+#acai{
+	color:#d027aa;
+}
+#precos{
+	float:right;
+}
+#lateral{
+	position: absolute;
+	top:7px;
 
 }
-
-.conteudo{
+#siri{
+	position: relative;
+	left: -10px;
+	top:7px;
+}
+#palavracardapio{
+	font-family: 'Verdana';
+	color: #333;
+	font-weight: bold;
+	font-size: 48px;
+	transform: rotate(-90deg);
+	position: relative;
+	top:290px;
+	left:-170px;
+}
+#bolhas{
+	position: relative;
+	top: 230px;
+	left: 40px;
+}
+#peixefeliz{
+	position: relative;
+	top:362px;
+	left:-140px;
 
 }
-
-.lateral{
-
+#ticket{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+#desconto{
+	position: relative;
+	top:295px;
+	left:-80px;
+	transition: left 100ms ease-out;
+}
+#desconto:hover{
+	left:0;
 }
 
-.cardapio{
+h1{
+	font-size:36px;
+	font-family: 'ravie';
+	color: #e90c0c;
+	padding-left: 170px;
+
 
 }
+h2{
+	font-size:24px;
+	font-family:'Trebuchet MS';
+	color:#333;
+	padding-left: 260px;
 
-.rodape{
-
+}
+h3{
+	font-family: 'Verdana';
+	font-size: 18px;
+	font-weight: bold;
+	color:#333;
+}
+article{
+	background-color: rgba(255, 255, 255, 0.2);
+	font-family: 'Verdana';
+	font-size: 14px;
+	color:#333;
+        margin-left:154px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:50px;
+	max-width:646px;
+	border: 1px solid #aac0ae;
+	line-height: 200%;
+}
+footer{
+	padding-left: 695px;
+	padding-top: 46px;
+	padding-bottom: 25px;
 }
